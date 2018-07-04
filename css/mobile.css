@@ -6,10 +6,24 @@
     border: 0;
     outline: none;
 }
-
+html{
+    font-size: 12px;
+}
 #logo {
     width: 100%;
     height: auto;
+}
+.color1{
+    color: #015274;
+}
+.color2{
+    color: #0498CC;
+}
+.color3{
+    color: #6EC2E0;
+}
+.color4{
+    color: #BBE3F1;
 }
 
 #logoHead {
@@ -77,8 +91,10 @@ header {
 
 
 .titulo {
-    font: 100 24px 'Helvetica Neue', Helvetica, Arial;
-    color: #BA2527;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    font-weight: 100 ;
+    font-size: 3rem;
+    color: #0097CC;
     letter-spacing: 2px;
 }
 
@@ -86,7 +102,7 @@ header {
     width: 100px;
     margin: 10px auto 10px;
     border: 0;
-    border-top: 1px solid #0c5373;
+    border-top: 1px solid #0097CC;
 }
 
 .iconServices {
@@ -213,7 +229,7 @@ header {
 
 #animacion {
     height: 300px;
-    background-color: lightskyblue;
+    background-color: #015274;
 }
 
 
@@ -338,15 +354,18 @@ input#enviar{
 }
 
 .proyect {
-    background-color: lightskyblue;
+    background-color:#122734;
     padding-bottom: 50px;
 }
 
+
 .proyecto {
-    font: 100 20px/24px 'Helvetica Neue', Helvetica, Arial;
+    font: 100 2rem 'Helvetica Neue', Helvetica, Arial;
     color: white;
     letter-spacing: 1px;
+    text-align: justify;
 }
+
 
 footer {
     width: 100%;

@@ -3,6 +3,9 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    html{
+        font-size: 14px;
+    }
     #animationtxt{
     width: 600px;
     top: 50%;
@@ -84,9 +87,7 @@
     right:25%;
     z-index: 0;
     }
-     .titulo {
-    font: 100 32px 'Helvetica Neue', Helvetica, Arial;
-    }
+    
     
     .line {
     margin: 20px auto 40px;
@@ -137,6 +138,9 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    html{
+        font-size: 15px;
+    }
     #animationtxt{
     width: 700px;
     margin-top: -50px;

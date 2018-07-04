@@ -162,3 +162,15 @@ function toggleNav8() {
         $('.listArquitectura,.listNegocios,.listWeb').hide();
     }
 }
+
+$('header').vide({
+  mp4: videos/intro,
+  poster: videos/poster
+}, {
+  volume: 1,
+  playbackRate: 1,
+  muted: true,
+  loop: true,
+  autoplay: true,
+  position: '50% 50%'
+});
