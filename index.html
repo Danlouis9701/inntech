@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="studio-8.co">
+    <meta name="description" content="Servicios integrales de consultoría, desarrollo de Software e implementación de soluciones tecnológicas de gestión empresarial">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inntech</title>
+    <link rel="icon" href="img/logoB.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   
+    <script src="greensock/TweenMax.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script src="greensock/CSSPlugin.min.js"></script>
+    <script src="greensock/EasePack.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              
+    
+    
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="form/phanimate.jquery.js"></script>
+    <script src="js/_custom.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(function(){
+            $(window).scroll(function(){
+                var top = $(this).scrollTop();
+                var menu = $('#menu')
+               if(top>123){
+                  menu.addClass('navbar-fixed-top');
+                   $(".navbar-fixed-top").autoHidingNavbar();
+               }else{
+                   menu.removeClass('navbar-fixed-top');
+               }
+            });
+            
+        });
+    </script>
+    <script>
+        $(function(){
+         //  $('#contactoBtn').animatescroll({element:'#contacto',padding:20}); 
+        });
+    </script>
+</head>
+<body>
+    <nav id="logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="logoHead"></div>
+                </div>
+                <div class="col-xs-12">
+                    <h1 class="tech text-center"><span class="mayus">I</span>nnovation <span class="mayus">T</span>echnology <span class="mayus">S</span>ervices</h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+     <div id='menu' class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logoB.png" class="logoNav" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" onclick="$('nav#logo').animatescroll({scrollSpeed:2000});">Inicio</a></li>
+            <li><a href="#portafolio" onclick="$('#servicios').animatescroll({scrollSpeed:2000,padding :50});">Portafolio</a></li>
+            <li><a href="#" onclick="$('#mision').animatescroll({scrollSpeed:2000,padding :50});">Nosotros</a></li>
+            <li><a href="#" onclick="$('#diferenciadores').animatescroll({scrollSpeed:2000,padding :50});">Diferenciadores</a></li>
+            <li><a href="#" onclick="$('#contacto').animatescroll({scrollSpeed:2000,padding :50});">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <header data-vide-bg="mp4: videos/intro, webm: path/to/video2, ogv: path/to/video3, poster: path/to/poster"
+  data-vide-options="posterType: jpg, loop: true, muted: false, position: 0% 50%">
+      
+                    <div id="animationtxt">
+                        <h2 class="txtAnimate" id="txt1">IT CONSULTING</h2>
+                        <h2 class="txtAnimate" id="txt2">INNOVATION</h2>
+                        <h2 class="txtAnimate" id="txt3">KNOWLEDGE</h2>
+                        <h2 class="txtAnimate" id="txt4">EMPOWERMENT</h2>
+                        <h2 class="txtAnimate" id="txt5">EXPERIENCE</h2>
+
+                    </div>
+      
+    </header>
+    <section id="servicios" class="anchura">
+        <h2 class="titulo text-center">Portafolio</h2>
+        <hr class="line">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-3 paddingXS">
+                    <img src="img/desarrollo.png" alt="desarrollo de software" class="iconServices img-responsive btndesarrollo">
+                    <h3 class="iconTitle btndesarrollo">Desarrollo <br>de Software</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btndesarrollo">
+                            + Info <span class="caret"></span>
+                        </button>
+                </div>
+                <div class="col-xs-3 paddingXS">
+                    <img src="img/gestion.png" alt="Gestión de Procesos" class="iconServices img-responsive btnGestion">
+                    <h3 class="iconTitle btnGestion">Gestión <br>de Procesos</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnGestion">
+                            + Info <span class="caret"></span>
+                        </button>
+                </div>
+                <div class="col-xs-3 paddingXS">
+                    <img src="img/aplicaciones.png" alt="Aplicaciones Móviles" class="iconServices img-responsive btnMoviles">
+                    <h3 class="iconTitle btnMoviles">Aplicaciones <br>Móviles</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnMoviles">
+                            + Info <span class="caret"></span>
+                        </button>
+                </div>
+                <div class="col-xs-3 paddingXS">
+                    <img src="img/proyectos.png" alt="Administración de Proyectos" class="iconServices img-responsive btnProyectos">
+                    <h3 class="iconTitle btnProyectos">Administración <br>de Proyectos</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnProyectos">
+                            + Info <span class="caret"></span>
+                        </button>
+                </div>
+            </div>
+               
+                <div class="row show-nav" id="infoServices">
+                    <div class="col-xs-12 col-sm-3">
+                            <button type="button" class="btn btn-info btn-xs marginLeft btndesarrollo listDesarrollo">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listDesarrollo">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                            
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                           <button type="button" class="btn btn-info btn-xs marginLeft btndesarrollo listGestion">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listGestion">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                           <button type="button" class="btn btn-info btn-xs marginLeft btndesarrollo listMoviles">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listMoviles">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                           <button type="button" class="btn btn-info btn-xs marginLeft btndesarrollo listProyectos">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listProyectos">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                    </div>
+                </div>
+                
+             
+                 <div class="row">
+                    <div class="col-xs-3 paddingXS">
+                        <img src="img/arquitectura.png" alt="Arquitectura Tecnológica" class="iconServices img-responsive btnArquitectura">
+                        <h3 class="iconTitle">Arquitectura <br> Tecnológica</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnArquitectura">
+                            + Info <span class="caret"></span>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 paddingXS">
+                        <img src="img/negocios.png" alt="Inteligencia de Negocios" class="iconServices img-responsive btnNegocios">
+                        <h3 class="iconTitle">Inteligencia <br>de Negocios</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnNegocios">
+                            + Info <span class="caret"></span>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 paddingXS">
+                        <img src="img/web.png" alt="Portales Web" class="iconServices img-responsive btnWeb">
+                        <h3 class="iconTitle">Portales <br>Web</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnWeb">
+                            + Info <span class="caret"></span>
+                        </button>
+                    </div>
+                    <div class="col-xs-3 paddingXS">
+                        <img src="img/implementaciones.png" alt="Implementaciones Tecnologicas" class="iconServices img-responsive btnImplementaciones">
+                        <h3 class="iconTitle">Implementaciones <br>Tecnologicas</h3>
+                        <button type="button" class="btn btn-default btn-xs floatRight btnImplementaciones">
+                            + Info <span class="caret"></span>
+                        </button>
+                    </div>
+                 </div>
+                 
+                 <div class="row show-nav" id="infoServices2">
+                    <div class="col-xs-12 col-sm-3">
+                            <button type="button" class="btn btn-info btn-xs marginLeft btnArquitectura listArquitectura">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listArquitectura">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                            
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                           <button type="button" class="btn btn-info btn-xs marginLeft btnNegocios listNegocios">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listNegocios">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                           <button type="button" class="btn btn-info btn-xs marginLeft btnWeb listWeb">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listWeb">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                           <button type="button" class="btn btn-info btn-xs marginLeft btnImplementaciones listImplementaciones">
+                                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                            <ul class="listStyles listImplementaciones">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Facilis illo enim vel, eligendi!</li>
+                                <li>Harum, totam. Cupiditate iure, harum.</li>
+                            </ul>
+                    </div>
+                </div>
+                 
+                 
+            </div>
+     
+    </section>
+    
+    <section id="mobile" class="anchura">
+        <div class="fluid-container">
+            <div class="row  resetMargin">
+                <div class="col-xs-6">
+                    <div id="iOS"></div>
+                   <div id="appleShadow"></div> 
+                </div>
+                <div class="col-xs-6">
+                    <div id="android"></div>
+                    <div id="androidShadow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="mision" class="anchura">
+       <h2 class="titulo text-center">INNOVATION TECHNOLOGYN SERVICES</h2>
+       <hr class="line">
+        <div class="container">
+            <div class="row">
+               <div class="col-xs-12 v-h visible-xs">
+                    <h3 id="vision1" class="vision wow slideInRight">Misión</h3>
+                    <h3 id="vision2" class="vision wow slideInRight">Visión</h3>
+                    <h3 id="vision3" class="vision wow slideInRight">Valores</h3>
+                    <h3 id="vision4" class="vision wow slideInRight">Filosofía</h3>
+                    <h3 id="vision5" class="vision wow slideInRight">Identidad</h3>
+                    <h3 id="vision6" class="vision wow slideInRight">Ética</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 wow fadeIn" data-wow-duration="2s">
+                    <p class='mision'>Empresa solida fundada por un equipo de profesionales  que brinda servicios integrales de consultoría, desarrollo de software e implementación de soluciones tecnológicas de gestión empresarial que integran todos los niveles de la organizació</p>
+                    <p class='mision'>Contamos con una amplia experiencia y conocimientos técnicos en la gestión de proyectos, reingeniería de procesos, ERP’s, seguridad, bases de datos y desarrollos a la medida.</p>
+                    <p class='mision'>Con el objetivo de establecer relaciones de largo plazo con nuestros socios comerciales, generando relaciones mutuamente benéficas</p>
+                </div>
+                <div class="col-xs-6 hidden-xs v-h">
+                    <h3 id="vision1" class="vision wow slideInRight">Misión</h3>
+                    <h3 id="vision2" class="vision wow slideInRight">Visión</h3>
+                    <h3 id="vision3" class="vision wow slideInRight">Valores</h3>
+                    <h3 id="vision4" class="vision wow slideInRight">Filosofía</h3>
+                    <h3 id="vision5" class="vision wow slideInRight">Identidad</h3>
+                    <h3 id="vision6" class="vision wow slideInRight">Ética</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="animacion" class="anchura">
+    <div id="particles-js">
+    <img src="img/logoB.png" alt="" class="logoB wow fadeIn img-responsive">
+    </div>
+    </section>
+    
+    
+    <section id="diferenciadores" class="anchura">
+       <h2 class="titulo text-center">DIFERENCIADORES</h2>
+       <hr class="line">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4">
+                <img src="img/diferenciadores-02.png" class="img-responsive center-block wow fadeIn" alt="">
+                <h3 class="servicio text-center">Calidad<br> en el Servicio</h3>
+                </div>
+                <div class="col-xs-4">
+                <img src="img/diferenciadores-03.png" class="img-responsive center-block wow fadeIn" alt="">
+                <h3 class="servicio text-center">Innovación<br> Tecnológica</h3>
+                </div>
+                <div class="col-xs-4">
+                <img src="img/diferenciadores-04.png" class="img-responsive center-block wow fadeIn" alt="">
+                <h3 class="servicio text-center">Maximizar<br> Recursos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="anchura">
+       
+        <div class="container-fluid">
+           
+            <div class="row proyect">
+                <div class="container">
+                   <h2 class="titulo text-center">Iniciar Proyecto</h2>
+                   <hr class="line">
+                    <div class="col-xs-10 col-xs-offset-1">
+                       <h4 class="proyecto">
+                           Muchas gracias por tu interés en nuestros servicios. Nos gustaría escuchar tus necesidades e iniciar un proyecto juntos. Llena el siguiente formulario para conocer tu proyecto y ponernos en contacto contigo. 
+                       </h4>
+                    </div>
+                </div>
+            </div>
+               <div class="row">
+               <h2 class="titulo text-center">Contactanos</h2>
+               <hr class="line">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                    <form method="post" action="mail.php">
+						<div class="custom-input">
+                          <label for="firstname">*Nombre(s)</label>
+                          <input type="text" class="form-control" id="firstname" name="nombre" required>
+                        </div>
+
+                        <div class="custom-input">
+                          <label for="test">*Apelido(s)</label>
+                          <input type="text" class="form-control" id="test" name="apellido" required>
+                        </div>
+
+                        <div class="custom-input">
+                          <label for="test2">*ejemplo@gmail.com</label>
+                          <input type="email" class="form-control" id="test2" name="email" placeholder="ejemplo@gmail.com">
+                        </div>
+
+                        <div class="custom-input">
+                          <label>Nombre de la Empresa</label>
+                          <input type="text" class="form-control" name="empresa" placeholder="Nombre de la Empresa">
+                        </div>
+
+                        <div class="custom-input">
+                          <label>Página Web actual</label>
+                          <input type="text" class="form-control" name="pagina">
+                        </div>
+
+                        <div class="custom-input">
+                         <label>*Teléfono</label>
+                          <input type="tel" class="form-control" placeholder="*Teléfono" name="tel">
+                        </div>
+                        <div class="custom-input">
+                         <label>*Describe tu idea o proyecto</label>
+                            <input type="tel" class="form-control" name="comentarios">
+                        </div>
+                        <div class="custom-input2">
+                        <input type="submit" id="enviar" value="enviar proyecto">
+                        </div>
+					</form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h5>Derechos Reservados Inntech</h5>
+                    <h6>powered by <a href="http://www.studio-8.co" target="_blank" id="studio8">studio-8.co</a></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!----------------------------------------
+            Script para las particulas 
+    ------------------------------------------>
+    
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.superscrollorama.js"></script>
+    <script>
+        // parallax example
+        $(document).ready(function() {
+            var controller = $.superscrollorama();
+                controller.addTween(
+                  '#mobile',
+                  (new TimelineLite())
+                    .append([
+                      TweenMax.from($('#appleShadow'), 1, 
+                        {css:{opacity:0}, immediateRender:true}),
+                      TweenMax.from($('#androidShadow'), 1, 
+                        {css:{opacity:0}, immediateRender:true})
+                    ]),
+                  500 // scroll duration of tween
+                );
+        });
+    </script>    
+
+</body>
+</html>

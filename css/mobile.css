@@ -1,0 +1,436 @@
+/* Responsive CSS mobile */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+#logoHead {
+    
+    width: 213px;
+    height: 59px;
+    background-image: url(../img/logoHead2.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto 0;
+}
+
+.tech {
+    font: 200 24px 'Helvetica Neue', Helvetica, Arial;
+    color: #cac8c7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.mayus {
+    font-size: 32px;
+    font-weight: 300;
+    
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: rgba(48, 133, 154, 0.6);
+
+}
+#animationtxt{
+    width: 340px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -50px;
+    margin-left: 0px;
+    overflow: hidden;
+    text-align: center;
+    /*background-color: red;*/
+}
+.txtAnimate {
+    font:400 36px 'Helvetica Neue';
+    color:#195a78;
+    -webkit-text-stroke:1px white;
+    -moz-text-stroke:1px white;
+    -ms-text-stroke:1px white;
+    -o-text-stroke:1px white;
+    text-stroke:1px white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px 0;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 15px;
+}
+#txt2,#txt3,#txt5{
+    padding-left: 40px;
+}
+
+
+.titulo {
+    font: 100 24px 'Helvetica Neue', Helvetica, Arial;
+    color: #BA2527;
+    letter-spacing: 2px;
+}
+
+.line {
+    width: 100px;
+    margin: 10px auto 10px;
+    border: 0;
+    border-top: 1px solid #0c5373;
+}
+
+.iconServices {
+    display: block;
+    margin: 20px auto 0;
+}
+
+.iconTitle {
+    font: 100 12px 'Helvetica Neue', Helvetica, Arial;
+    color: #0c5373;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#servicios {
+    
+}
+
+.anchura {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+#infoServices,#infoServices2{
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../img/servicesBg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.listStyles {
+    padding-left: 5%;
+    font: 200 12px 'helvetica neue', helvetica, arial;
+    color: #0c5373;
+}
+
+.floatRight {
+    float: right;
+    margin-right: 20%;
+}
+.btn-default{
+    color: #0097CC;
+    border-color: #0097CC;
+    background-color: none;
+    background-image: none;
+}
+.btn-default:focus, .btn-default:hover, .btn-default:active {
+    background-color: #0c5373;
+    background-position: 0 0px;
+    color: #0097CC;
+    border-color: #0097CC;
+    outline: none;
+    text-shadow: none;
+}
+.marginLeft {
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+#iOS {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/iOS.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:60px;
+    left:25%;
+    z-index: 1;
+}
+#android {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/android.png);
+     -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:60px;
+    right:25%;
+    z-index: 1;
+}
+
+#mobile {
+    height: 230px;
+    background-image: url(../img/cubeBg.png);
+    position: relative;
+}
+
+#appleShadow {
+    width: 102px;
+    height: 114px;
+    background-image: url(../img/appleShadow.png);
+     -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:60px;
+    left:25%;
+    z-index: 0;
+}
+
+#androidShadow {
+    width: 102px;
+    height: 114px;
+    background-image: url(../img/androidShadow.png);
+     -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:60px;
+    right:25%;
+    z-index: 0;
+}
+
+
+
+#mision {
+    background-image: url(../img/logoBig.png);
+    background-repeat: no-repeat;
+    background-size:40%;
+    background-position: 90% 0%;
+    position: relative;
+}
+
+#animacion {
+    height: 300px;
+    background-color: lightskyblue;
+}
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+ position: relative;   
+}
+
+.logoB {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -75px;
+}
+
+
+/* ---- Estilos de la forma ---- */
+
+input#enviar{
+    width: 120px;
+    height: 30px;
+    background-color: skyblue;
+    color: aliceblue;
+    font: 100 14px 'Helvetica Neue', Helvetica, Arial;
+    letter-spacing: 1px;
+    border: none;
+}
+.custom-input2 {
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 10px;
+    border:0;
+    border-bottom: none; 
+}
+
+.custom-input {
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  border:0;
+  border-bottom: solid 1px skyblue; 
+}
+
+.custom-input input {
+  padding-left: 15px;
+}
+.custom-input input:focus, .custom-input2 input:focus {
+  background-color: #0c5373;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5);
+}
+.custom-input label {
+  cursor: text;
+  margin: 0;
+  padding: 0;
+  left: 15px;
+  top: 27px;
+  position: absolute;
+  color: #36b2ff;
+  font: 100 14px 'Helvetica Neue', Helvetica, Arial;
+  letter-spacing: 1px;
+  transition: all .3s ease;
+}
+
+.custom-input label.active {
+  top: 0;
+  left: 0;
+  font-size: 12px;
+}
+
+.custom-input label.active.focusIn {
+  color: #0c5373;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: skyblue;
+    font: 100 14px 'Helvetica Neue', Helvetica, Arial;
+    letter-spacing: 1px;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+
+
+/* ---- reset de margin and padding of bootstrap ---- */
+
+.resetMargin{
+    margin-left: 0;
+    margin-right: 0;
+}
+.resetPadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.paddingXS {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+#diferenciadores {
+}
+
+.proyect {
+    background-color: lightskyblue;
+    padding-bottom: 50px;
+}
+
+.proyecto {
+    font: 100 20px/24px 'Helvetica Neue', Helvetica, Arial;
+    color: white;
+    letter-spacing: 1px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #0c5373;
+    text-align: center;
+    color: aliceblue;
+    font: 100 14px 'Helvetica Neue', Helvetica, Arial;
+    letter-spacing: 1px;
+}
+footer h5,h6{
+    font: 100 14px 'Helvetica Neue', Helvetica, Arial;
+    letter-spacing: 1px;
+}
+
+#studio8 {
+    color: aliceblue;
+}
+
+#vision1 {
+    position: absolute;
+    top: -10px;
+    right: 35%;
+}
+#vision2 {
+    position: absolute;
+    top: 20px;
+    right: 60%;
+}
+#vision3 {
+    position: absolute;
+    top: 30px;
+    right: 20%;
+}
+#vision4 {
+    position: absolute;
+    top: 40px;
+    right: 40%;
+}
+
+#vision5 {
+    position: absolute;
+    top: 70px;
+    right: 65%;
+}
+#vision6 {
+    position: absolute;
+    top: 100px;
+    right: 30%;
+}
+
+.vision {
+    font: 200 18px 'Helvetica Neue', Helvetica, Arial;
+    color: #0097CC;
+}
+
+.v-h {
+    height: 150px;
+}
+
+.servicio {
+    font: 100 24px 'helvetica neue', helvetica, Arial;
+    color: #0c5373;
+    letter-spacing: 1px;
+}
+
+.mision {
+    font: 200 18px/24px 'helvetica neue', helvetica, arial;
+    letter-spacing: 1px;
+}
+.navbar{
+    margin-bottom: 0;
+    font-family: 'helvetica neue', helvetica, arial;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.logoNav {
+    height: 40px;
+}
+.navbar-brand {
+    padding: 5px 15px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #337ab7;
+}

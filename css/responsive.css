@@ -1,0 +1,170 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #animationtxt{
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -300px;
+    }
+    .txtAnimate {
+    font:400 60px 'Helvetica Neue';
+    margin: 10px 0;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    }
+    #txt2,#txt3,#txt5{
+        padding-left: 60px;
+    }
+    .iconTitle {
+    font: 100 18px 'Helvetica Neue', Helvetica, Arial;
+    }
+    .paddingXS {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .listStyles {
+    font: 200 14px 'helvetica neue', helvetica, arial;
+    }
+    .marginLeft {
+    margin-left: 10%;
+    margin-bottom: 5px;
+    }
+    
+    #mobile {
+    height: 300px;
+    background-image: url(../img/cubeBg.png);
+    position: relative;
+    }
+    
+    #iOS {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/iOS.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:60px;
+    left:25%;
+    z-index: 1;
+    }
+    
+    #android {
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/android.png);
+        position: absolute;
+        top:60px;
+        right:25%;
+        z-index: 1;
+    }
+
+    #appleShadow {
+        width: 152px;
+        height: 174px;
+        background-image: url(../img/appleShadow.png);
+        position: absolute;
+        top:60px;
+        left:25%;
+        z-index: 0;
+    }
+    
+    #androidShadow {
+    width: 152px;
+    height: 174px;
+    background-image: url(../img/androidShadow.png);
+     -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:60px;
+    right:25%;
+    z-index: 0;
+    }
+     .titulo {
+    font: 100 32px 'Helvetica Neue', Helvetica, Arial;
+    }
+    
+    .line {
+    margin: 20px auto 40px;
+    }
+   .vision {
+    font: 200 28px 'Helvetica Neue', Helvetica, Arial;
+    color: #0097CC;
+    }    
+    .v-h {
+    height: 250px;
+    }
+    
+    #vision1 {
+    position: absolute;
+    top: 0px;
+    right: 35%;
+    }
+    #vision2 {
+        position: absolute;
+        top: 50px;
+        right: 60%;
+    }
+    #vision3 {
+        position: absolute;
+        top: 100px;
+        right: 20%;
+    }
+    #vision4 {
+        position: absolute;
+        top: 40px;
+        right: 0%;
+    }
+
+    #vision5 {
+        position: absolute;
+        top: 150px;
+        right: 35%;
+    }
+    #vision6 {
+        position: absolute;
+        top: 200px;
+        right: 70%;
+    }
+
+    
+    
+}/* Tablet devices End Querys */
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #animationtxt{
+    width: 700px;
+    margin-top: -50px;
+    margin-left: -350px;
+    }
+    .txtAnimate {
+    font:400 80px 'Helvetica Neue';
+    margin: 10px 0;
+    top: 10px;
+    left: 50px;
+    }
+    #txt2,#txt3,#txt5{
+        padding-left: 80px;
+    }
+    .listStyles {
+    font: 200 18px 'helvetica neue', helvetica, arial;
+    }
+    .vision {
+    font: 200 38px 'Helvetica Neue', Helvetica, Arial;
+    color: #0097CC;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+
+
+}
